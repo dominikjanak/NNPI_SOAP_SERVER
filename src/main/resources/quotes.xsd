@@ -1,0 +1,28 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://dominikjanak.cz/webservices/quotes"
+           targetNamespace="http://dominikjanak.cz/webservices/quotes" elementFormDefault="qualified">
+
+    <xs:element name="getQuoteRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="key" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getQuoteResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="quote" type="tns:quote"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="quote">
+        <xs:sequence>
+            <xs:element name="id" type="xs:int"/>
+            <xs:element name="quote" type="xs:string"/>
+            <xs:element name="author" type="xs:string"/>
+            <xs:element name="isPublished" type="xs:boolean"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
