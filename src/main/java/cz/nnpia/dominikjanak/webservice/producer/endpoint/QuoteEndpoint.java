@@ -1,8 +1,8 @@
 package cz.nnpia.dominikjanak.webservice.producer.endpoint;
 
-import cz.dominikjanak.webservices.quotes.GetQuoteRequest;
-import cz.dominikjanak.webservices.quotes.GetQuoteResponse;
 import cz.nnpia.dominikjanak.webservice.producer.repository.QuoteRepository;
+import https.soap_webservice_herokuapp_com.ws.quotes.GetQuoteRequest;
+import https.soap_webservice_herokuapp_com.ws.quotes.GetQuoteResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
@@ -12,7 +12,7 @@ import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
 @Endpoint
 public class QuoteEndpoint {
-	private static final String NAMESPACE_URI = "http://dominikjanak.cz/webservices/quotes";
+	private static final String NAMESPACE_URI = "https://soap-webservice.herokuapp.com/ws/quotes";
 
 	private QuoteRepository quoteRepository;
 

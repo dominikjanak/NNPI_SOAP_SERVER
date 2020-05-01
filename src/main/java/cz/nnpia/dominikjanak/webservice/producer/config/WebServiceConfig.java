@@ -28,7 +28,7 @@ public class WebServiceConfig extends WsConfigurerAdapter {
 		DefaultWsdl11Definition wsdl11Definition = new DefaultWsdl11Definition();
 		wsdl11Definition.setPortTypeName("QuotesPort");
 		wsdl11Definition.setLocationUri("/ws");
-		wsdl11Definition.setTargetNamespace("http://dominikjanak.cz/webservices/quotes");
+		wsdl11Definition.setTargetNamespace("https://soap-webservice.herokuapp.com/ws/quotes");
 		wsdl11Definition.setSchema(quotesSchema);
 		return wsdl11Definition;
 	}

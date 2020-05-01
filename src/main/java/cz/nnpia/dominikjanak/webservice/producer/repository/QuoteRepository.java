@@ -1,11 +1,9 @@
 package cz.nnpia.dominikjanak.webservice.producer.repository;
 
-import cz.dominikjanak.webservices.quotes.Quote;
+import https.soap_webservice_herokuapp_com.ws.quotes.Quote;
 import org.springframework.stereotype.Component;
-import org.springframework.util.Assert;
 
 import javax.annotation.PostConstruct;
-import java.math.BigInteger;
 import java.util.HashMap;
 import java.util.Map;
 

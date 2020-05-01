@@ -1,5 +1,5 @@
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://dominikjanak.cz/webservices/quotes"
-           targetNamespace="http://dominikjanak.cz/webservices/quotes" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="https://soap-webservice.herokuapp.com/ws/quotes"
+           targetNamespace="https://soap-webservice.herokuapp.com/ws/quotes" elementFormDefault="qualified">
 
     <xs:element name="getQuoteRequest">
         <xs:complexType>
