@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+				  xmlns:gs="https://soap-webservice.herokuapp.com/ws/quotes">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <gs:getQuoteRequest>
+         <gs:key>1</gs:key>
+      </gs:getQuoteRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
