@@ -37,7 +37,7 @@ public class QuoteRepository {
                 "Nikdy nedělejte rozhodnutí, když se vám chce čurat.",
                 "Jak by se vám líbila práce, kde pokaždé, když uděláte chybu, tak se rozsvítí červené světlo a 18000 lidí začne pískat?",
                 "Kdybych dostal devět hodin na to, abych porazil strom, prvních šest bych brousil sekeru.",
-                "ět procent lidí myslí; 10 procent lidí si myslí, že myslí a dalších 85 procent by raději zemřelo, než by mysleli."
+                "Pět procent lidí myslí; 10 procent lidí si myslí, že myslí a dalších 85 procent by raději zemřelo, než by mysleli."
         };
         String[] qAuthor = {
                 "Neznámý autor",

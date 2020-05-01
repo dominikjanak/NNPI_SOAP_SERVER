@@ -2,7 +2,8 @@
 Vypracování semestrální práce na téma Web services - procducer
 ## Informace
 Server nasluchá na adrese https://soap-webservice.herokuapp.com/ws/, kde odbavuje požadavky definované podle WSDL na adrese: https://soap-webservice.herokuapp.com/ws/quotes.wsdl.
-
+### Data:
+Klíč (key) pro data je validní v rozmezí 0 - 23
 ### Vzor Requestu:
 **CMD:** 
 ``
